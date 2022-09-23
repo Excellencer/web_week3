@@ -1,0 +1,46 @@
+body {
+  font-family: Verdana, Arial, sans-serif;
+}
+td {
+  padding: 6px;
+  border-bottom: 1px;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
+}
+
+th {
+  background-color: #b7d0ff;
+  font-style: bold;
+  padding: 12px 0px 12px 6px;
+  border-bottom: 2px;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
+}
+/* Striped tabels css from here https://www.w3schools.com/css/tryit.asp?filename=trycss_table_striped*/
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+tr.above {
+  background-color: #abffbd;
+}
+tr.below {
+  background-color: #ff9e9e;
+}
+table {
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: left;
+  table-layout: fixed;
+  width: 100%;
+}
+.center {
+  margin: auto;
+  padding: 60px;
+  width: 60%;
+}
+
+
+/*# sourceMappingURL=/src.a2b27638.css.map */
